@@ -1,0 +1,264 @@
+/* popup */
+
+.popup {
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background: rgba(0, 0, 0, 0.75);
+    text-align: center;
+    z-index: 999;
+    overflow: hidden;
+    overflow-y: auto;
+    -ms-overflow-style: none;
+    overflow: -moz-scrollbars-none;
+}
+
+.popup::-webkit-scrollbar {
+    width: 0 !important;
+}
+
+.popup:before {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    margin-right: -4px;
+    vertical-align: middle;
+}
+
+.popup-inner {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+    position: relative;
+    max-width: 1400px;
+    width: 100%;
+    padding: 40px 20px;
+    -webkit-box-shadow: 0px 2px 6px #000;
+    box-shadow: 0px 2px 6px #000;
+    border-radius: 20px;
+    text-align: center;
+    margin: 50px 0;
+    word-wrap: break-word;
+    color: #fff;
+    font-family: 'DINPro-Regular', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    border: 1px solid rgba(197, 166, 105, .5);
+    background: url("../images/tobiiAware__bg.jpg") top center no-repeat #000;
+}
+
+@media screen and (max-width: 1440px) {
+    .popup-inner {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .popup-inner {
+        width: 80%;
+    }
+}
+
+@media (max-width: 960px) {
+    .popup-inner {
+        max-width: 900px;
+        width: 90%;
+        padding: 40px 20px 10px;
+    }
+}
+
+.popup-inner a {
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+}
+
+.popup-close {
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 40px;
+    line-height: 1;
+    color: #c5a669 !important;
+    padding: 0 5px;
+}
+
+.modal-content {
+    border: 0 !important;
+    border-radius: 0;
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    background: transparent;
+}
+
+.modal-content .modal-body {
+    text-align: center;
+    color: #fff;
+    font-size: 1em;
+}
+
+
+/* Terms and Conditions */
+
+.paddingNone {
+    padding: 0;
+}
+
+.tobiiAware {
+    font-family: "CenturyGothic", "cwTeXHei", "Microsoft JhengHei";
+}
+
+.tobiiAware .tobiiAware__icon img {
+    max-height: 70px;
+    max-width: 70%
+}
+
+@media screen and (max-width: 1920px) {
+    .tobiiAware .tobiiAware__icon img {
+        max-height: 40px;
+    }
+}
+
+.tobiiAware h2,
+.tobiiAware h4 {
+    color: #c5a669;
+}
+
+.tobiiAware h2 {
+    font-size: 36px;
+}
+
+@media screen and (max-width: 1920px) {
+    .tobiiAware h2 {
+        font-size: 34px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .tobiiAware h2 {
+        font-size: 24px;
+    }
+}
+
+.tobiiAware p {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1920px) {
+    .tobiiAware p {
+        font-size: 18px;
+    }
+}
+
+.tobiiAware .tobiiAware__toptext {
+    width: 70%;
+    margin: 1.5% auto;
+    text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .tobiiAware .tobiiAware__toptext {
+        width: 95%;
+    }
+}
+
+.tobiiAware .tobiiAware__toptext p {
+    margin-top: 15px;
+}
+
+.tobiiAware .flexmain {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 1024px) {
+    .tobiiAware .flexmain {
+        flex-direction: column-reverse;
+    }
+}
+
+.tobiiAware .flexmain .flexmain__txtbox {
+    text-align: left;
+    flex: 0 0 35%;
+    margin-left: 2%;
+}
+
+@media screen and (max-width: 1024px) {
+    .tobiiAware .flexmain .flexmain__txtbox {
+        text-align: center;
+        padding-right: 0;
+        margin-top: 20px;
+        margin-left: 0;
+    }
+}
+
+.tobiiAware .flexmain .flexmain__txtbox .flexmain__txtbox--text {
+    display: flex;
+    align-items: center;
+    color: #c5a669;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1920px) {
+    .tobiiAware .flexmain .flexmain__txtbox .flexmain__txtbox--text {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .tobiiAware .flexmain .flexmain__txtbox .flexmain__txtbox--text {
+        justify-content: center;
+    }
+}
+
+.tobiiAware .flexmain .flexmain__txtbox .flexmain__txtbox--text img {
+    margin-right: 10px;
+    width: 20px;
+}
+
+.tobiiAware .flexmain .flexmain__txtbox ul li {
+    margin-bottom: 20px;
+}
+
+.tobiiAware .flexmain .flexmain__txtbox ul li h4,
+.tobiiAware .flexmain .flexmain__txtbox ul li p {
+    font-size: 15px;
+}
+
+.tobiiAware .flexmain .flexmain__txtbox ul li h4 {
+    margin-bottom: 3px;
+}
+
+.tobiiAware .flexmain .flexmain__txtbox ul li p {
+    line-height: 1.4;
+}
+
+.tobiiAware .flexmain .flexmain__video {
+    flex: 0 0 60%;
+    margin: 2% auto;
+}
+
+.tobiiAware .flexmain .flexmain__video video {
+    width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+    .tobiiAware .flexmain .flexmain__video video {
+        display: none;
+    }
+}
+
+.tobiiAware .flexmain .flexmain__video figure {
+    display: none;
+}
+
+@media screen and (max-width: 1024px) {
+    .tobiiAware .flexmain .flexmain__video figure {
+        display: block;
+    }
+}

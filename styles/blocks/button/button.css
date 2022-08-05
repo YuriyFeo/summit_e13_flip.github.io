@@ -1,0 +1,46 @@
+.button {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    width: 150px;
+    height: 50px;
+    font-size: 30px;
+    display: block;
+    cursor: pointer;
+}
+
+.button:focus {
+    outline-color: greenyellow;
+}
+
+.foot {
+    width: 100%;
+    margin: 0 auto;
+    height: 100px;
+}
+
+.foot__button {
+    display: inline-block;
+    background-color: #f68b1e;
+    color: #fff;
+    padding: 12px 50px 12px 50px;
+    border-radius: 0px;
+    text-decoration: none;
+    font-family: "CenturyGothic";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+}
+
+.foot__button:hover {
+    opacity: 80%;
+}
+
+.foot__button-place {
+    position: relative;
+    top: 0px;
+    padding: 24px;
+    text-align: center;
+}

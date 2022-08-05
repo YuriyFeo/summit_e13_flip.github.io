@@ -1,0 +1,243 @@
+#kv {
+    background-color: #060606;
+    position: relative;
+    min-height: 70vw;
+    width: 100%;
+    padding: 0 10% 0px;
+    overflow: hidden;
+}
+
+#kv .bgphoto {
+    position: absolute;
+    top: -33vw;
+    left: 0;
+    width: 100%;
+    height: 100vw;
+    background-image: url('../../../images/kv.jpg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#kv .content-area {
+    padding: 45vw 24% 50px;
+    position: relative;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'CenturyGothic';
+}
+
+#kv .intel img {
+    display: block;
+    height: 75px;
+    margin-bottom: 36px;
+}
+
+#kv .intel {
+    position: absolute;
+    top: 35px;
+    right: 36px;
+    font-size: 11px;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 10;
+    color: white;
+}
+
+#kv .ces img {
+    display: block;
+    height: 70px;
+    margin-bottom: 10px;
+}
+
+#kv .ces {
+    position: absolute;
+    top: 30px;
+    left: 36px;
+    font-size: 24px;
+    text-align: right;
+    display: flex;
+    /*flex-direction: column;*/
+    align-items: flex-end;
+    z-index: 10;
+    color: white;
+}
+
+@media (max-width:1200px) {
+    #kv .ces {
+        display: none;
+    }
+}
+
+#kv .intel-inline {
+    display: none;
+}
+
+#kv .ces-inline {
+    display: none;
+}
+
+#kv .kv-type {
+    color: #CCAC94;
+    font-size: 46px;
+    line-height: 1em;
+}
+
+#kv .kv-slogan {
+    color: #CCAC94;
+    margin: 24px 0 30px;
+    font-size: 68px;
+    line-height: 1em;
+}
+
+#kv .kv-subtitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 32px;
+    line-height: 1em;
+}
+
+#kv .kv-subtitle span {
+    margin: 0 10px;
+    width: 100px;
+}
+
+#kv .kv-subtitle span img {
+    max-width: 100%;
+}
+
+#kv p.msiText {
+    margin-top: 50px;
+    font-size: 24px;
+    line-height: 2em;
+    color: white;
+}
+
+@media(max-width: 3300px) {}
+
+@media(max-width: 2600px) {
+    #kv .kv-type {
+        font-size: 35px;
+    }
+    #kv .kv-slogan {
+        margin: 15px 0 20px;
+        font-size: 50px;
+    }
+    #kv .kv-subtitle {
+        font-size: 23px;
+    }
+    #kv p.msiText {
+        margin-top: 30px;
+        font-size: 18px;
+        line-height: 1.7em;
+    }
+}
+
+@media(max-width: 1920px) {
+    #kv .intel img {
+        height: 75px;
+        margin-bottom: 36px;
+    }
+    #kv .intel {
+        font-size: 11px;
+    }
+    #kv .kv-type {
+        font-size: 23px;
+    }
+    #kv .kv-slogan {
+        margin: 12px 0 15px;
+        font-size: 34px;
+    }
+    #kv .kv-subtitle {
+        font-size: 16px;
+    }
+    #kv p.msiText {
+        margin-top: 25px;
+        font-size: 14px;
+        line-height: 1.7em;
+    }
+    #kv .ces img {
+        height: 70px;
+    }
+}
+
+@media(max-width: 1200px) {
+    #kv .content-area {
+        padding: 45vw 12.5% 50px;
+    }
+    #kv .intel {
+        display: none;
+    }
+    #kv .intel-inline {
+        display: flex;
+        font-size: 12px;
+        text-align: left;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        z-index: 10;
+        color: white;
+        margin-top: 30px;
+    }
+    #kv .intel-inline img {
+        flex: 0 0 48px;
+        width: 100%;
+        height: 60px;
+        margin-right: 36px;
+    }
+    #kv .ces-inline {
+        display: flex;
+        text-align: center;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        z-index: 10;
+        color: white;
+        margin-top: 30px;
+    }
+    #kv .ces-inline img {
+        flex: 0 0 55px;
+        width: 100%;
+    }
+}
+
+@media(max-width: 900px) {
+    #kv .bgphoto {
+        top: -46vw;
+        background-size: 120%;
+        height: 120vw;
+    }
+    #kv .content-area {
+        padding: 50vw 12.5% 50px;
+    }
+    #kv .kv-subtitle span img {
+        max-width: 100%;
+    }
+    #kv .kv-subtitle span {
+        margin: 0 10px;
+        width: 80px;
+    }
+    #kv .ces-inline img {
+        height: 55px;
+    }
+}
+
+@media(max-width: 600px) {
+    #kv .bgphoto {
+        top: -47vw;
+        background-size: 140%;
+        height: 140vw;
+    }
+    #kv .content-area {
+        padding: 60vw 5% 50px;
+    }
+}

@@ -1,0 +1,267 @@
+@font-face {
+    font-family: 'msi-icons';
+    src: url('fonts/msi-icons.eot?850zlr');
+    src: url('fonts/msi-icons.eot?850zlr#iefix') format('embedded-opentype'), url('fonts/msi-icons.ttf?850zlr') format('truetype'), url('fonts/msi-icons.woff?850zlr') format('woff'), url('fonts/msi-icons.svg?850zlr#msi-icons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="icon-msi"],
+[class*=" icon-msi"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'msi-icons' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-msi-correct-1:before {
+    content: "\e93c";
+}
+
+.icon-msi-link:before {
+    content: "\e92f";
+}
+
+.icon-msi-mnt:before {
+    content: "\e930";
+}
+
+.icon-msi-nb:before {
+    content: "\e931";
+}
+
+.icon-msi-others:before {
+    content: "\e932";
+}
+
+.icon-msi-vga:before {
+    content: "\e933";
+}
+
+.icon-msi-vortex:before {
+    content: "\e934";
+}
+
+.icon-msi-aio:before {
+    content: "\e935";
+}
+
+.icon-msi-case:before {
+    content: "\e936";
+}
+
+.icon-msi-chair:before {
+    content: "\e937";
+}
+
+.icon-msi-cooling:before {
+    content: "\e938";
+}
+
+.icon-msi-dt:before {
+    content: "\e939";
+}
+
+.icon-msi-gg:before {
+    content: "\e93a";
+}
+
+.icon-msi-mb:before {
+    content: "\e93b";
+}
+
+.icon-msi-more:before {
+    content: "\e91a";
+}
+
+.icon-msi-check:before {
+    content: "\e92b";
+}
+
+.icon-msi-minus-1:before {
+    content: "\e92d";
+}
+
+.icon-msi-quit:before {
+    content: "\e92e";
+}
+
+.icon-msi-calendar:before {
+    content: "\e92c";
+}
+
+.icon-msi-redeem:before {
+    content: "\e929";
+}
+
+.icon-msi-edit:before {
+    content: "\e92a";
+}
+
+.icon-msi-weibo:before {
+    content: "\e909";
+}
+
+.icon-msi-g-plus:before {
+    content: "\e901";
+}
+
+.icon-msi-g-plus2:before {
+    content: "\e902";
+}
+
+.icon-msi-ig:before {
+    content: "\e903";
+}
+
+.icon-msi-twitter:before {
+    content: "\e904";
+}
+
+.icon-msi-vimeo:before {
+    content: "\e905";
+}
+
+.icon-msi-yt-play:before {
+    content: "\e906";
+}
+
+.icon-msi-yt:before {
+    content: "\e907";
+}
+
+.icon-msi-fb:before {
+    content: "\e908";
+}
+
+.icon-msi-tblist:before {
+    content: "\e923";
+}
+
+.icon-msi-eye:before {
+    content: "\e928";
+}
+
+.icon-msi-arrow-up:before {
+    content: "\e927";
+}
+
+.icon-msi-close:before {
+    content: "\e926";
+}
+
+.icon-msi-compare-2:before {
+    content: "\e925";
+}
+
+.icon-msi-arrow-down:before {
+    content: "\e91f";
+}
+
+.icon-msi-level:before {
+    content: "\e920";
+}
+
+.icon-msi-back:before {
+    content: "\e921";
+}
+
+.icon-msi-refresh-xs:before {
+    content: "\e922";
+}
+
+.icon-msi-sort:before {
+    content: "\e924";
+}
+
+.icon-msi-arrow-right:before {
+    content: "\e91e";
+}
+
+.icon-msi-compare:before {
+    content: "\e91d";
+}
+
+.icon-msi-play1:before {
+    content: "\e913";
+}
+
+.icon-msi-play:before {
+    content: "\e914";
+}
+
+.icon-msi-play2:before {
+    content: "\e915";
+}
+
+.icon-msi-play3:before {
+    content: "\e916";
+}
+
+.icon-msi-plus1:before {
+    content: "\e917";
+}
+
+.icon-msi-plus2:before {
+    content: "\e918";
+}
+
+.icon-msi-plus3:before {
+    content: "\e919";
+}
+
+.icon-msi-plus5:before {
+    content: "\e91b";
+}
+
+.icon-msi-plus:before {
+    content: "\e91c";
+}
+
+.icon-msi-prev-md:before {
+    content: "\e90a";
+}
+
+.icon-msi-next-md:before {
+    content: "\e90b";
+}
+
+.icon-msi-next-xs:before {
+    content: "\e90c";
+}
+
+.icon-msi-prev-xs:before {
+    content: "\e912";
+}
+
+.icon-msi-shopcart:before {
+    content: "\e900";
+}
+
+.icon-msi-menu:before {
+    content: "\e90d";
+}
+
+.icon-msi-download:before {
+    content: "\e90e";
+}
+
+.icon-msi-prev:before {
+    content: "\e90f";
+}
+
+.icon-msi-next:before {
+    content: "\e910";
+}
+
+.icon-msi-up-arrow:before {
+    content: "\e911";
+}

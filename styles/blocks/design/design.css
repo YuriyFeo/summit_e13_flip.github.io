@@ -1,0 +1,225 @@
+#design {
+    width: 100%;
+    background-image: url("../../../images/design_bgp_n.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    color: #f1f1f1;
+}
+
+.design-spiral {
+    width: 100%;
+    height: 43.333vw;
+}
+
+#design .btnE13Video {
+    display: inline-block;
+    padding: 0 0 3vh 0;
+    transition: .2s all ease-in-out;
+    opacity: .8;
+}
+
+#design .btnE13Video img {
+    width: 128px;
+    height: 128px;
+}
+
+#design a.btnE13Video:hover {
+    filter: drop-shadow(0 0 5px rgba(215, 168, 98, .8)) brightness(1.2);
+    opacity: 1;
+}
+
+.sblock {
+    width: 100%;
+    position: relative;
+    font-size: 0px;
+    white-space: nowrap;
+    left: 0;
+}
+
+
+/*.sblock img {*/
+
+
+/*    display: inline-block;*/
+
+
+/*}*/
+
+.sblock img {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.sblock img:nth-child(1) {
+    position: relative !important;
+    top: 0;
+    left: 0;
+}
+
+#design .mathcode {
+    padding: 50px 25vw;
+    text-align: center;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 50%);
+}
+
+#design .mathcode-icon {
+    margin-bottom: 30px;
+}
+
+#design .mathcode-icon img {
+    width: 9vw;
+}
+
+#design .photos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 55px 12.5vw;
+    background-color: black;
+    position: relative;
+    z-index: 1;
+}
+
+#design .photos-item {
+    width: calc((100% - 105px) / 4);
+    background-image: url("../../../images/gbg.png");
+    background-size: 200%;
+    padding: 2px;
+    opacity: 1;
+    background-position: 100% 100%;
+    animation-fill-mode: forwards;
+    position: relative;
+}
+
+#design .photos-p {
+    width: 100%;
+    padding-top: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    z-index: 15;
+    transition: 0.5s;
+}
+
+#design .photos-p:hover {
+    transform: scale(1.2, 1.2);
+}
+
+#design .photos-block {
+    width: 100%;
+    position: relative;
+    z-index: 10;
+    overflow: hidden;
+    opacity: 0;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+#design .photos-item::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: calc(100% - 2px);
+    height: calc(100% - 2px);
+    background-color: black;
+    top: 1px;
+    left: 1px;
+    z-index: 5;
+}
+
+@media (max-width: 1920px) {
+    #design .mathcode {
+        padding: 35px 25vw;
+    }
+    #design .photos-item {
+        padding: 1px;
+    }
+}
+
+@media (max-width: 1536px) {
+    #design .vd-container {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 1200px) {
+    #design {
+        background-size: 120%;
+    }
+    .design-spiral {
+        transform-origin: top center;
+        transform: scale(1.2, 1.2);
+    }
+    #design .cnc video {
+        margin-top: 0;
+    }
+    #design .mathcode {
+        padding: 150px 12.5vw 50px;
+        text-align: center;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 50%);
+    }
+    #design .mathcode-icon img {
+        width: 133px;
+    }
+    #design .cnc-icon img {
+        width: 60px;
+    }
+    #design .cnc-content {
+        padding: 2.4vw 12.5vw 0;
+    }
+}
+
+@media (max-width: 900px) {
+    #design .btnE13Video img {
+        width: 80px;
+        height: 80px;
+    }
+    #design .mathcode {
+        padding: 150px 5vw 50px;
+        text-align: center;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 50%);
+    }
+    #design .mathcode-icon img {
+        width: 133px;
+    }
+    #design .photos {
+        flex-wrap: wrap;
+    }
+    #design .photos-item {
+        width: calc((100% - 35px) / 2);
+        margin-bottom: 35px;
+    }
+    #design .cnc video {
+        width: 120%;
+        margin-left: -10%;
+    }
+    #design .cnc-content {
+        padding: 2.4vw 5vw 0;
+    }
+    #design .vd-container {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 800px) {
+    #design .mathcode {
+        padding: 100px 5vw 30px;
+    }
+    #design .cnc-content {
+        position: relative;
+    }
+    #design .cnc video {
+        width: 140%;
+        margin-top: -35%;
+        margin-left: -20%;
+    }
+}

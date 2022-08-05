@@ -1,0 +1,338 @@
+#performance {
+    position: relative;
+    background-color: #f0f0f0;
+    padding: 130px 0;
+    display: flex;
+    color: #000;
+}
+
+#performance .photo {
+    width: 50%;
+    padding-left: 0px;
+    padding-right: 12.5vw;
+    position: relative;
+    order: 2;
+}
+
+#performance .content {
+    width: 50%;
+    padding-left: 12.5vw;
+    order: 1;
+    position: relative;
+    display: flex;
+}
+
+#performance .content .txtbox {
+    width: 75%;
+}
+
+#performance .content .txtbox h2.msiText {
+    margin-top: 0;
+}
+
+#performance .intel-evo-icon {
+    width: 20%;
+    padding-right: 5%;
+}
+
+#performance .intel-evo-icon img {
+    width: 120px;
+}
+
+#performance .intel-evo-icon2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+}
+
+#performance .intel-evo-icon2 img {
+    width: 120px;
+}
+
+.msiText span {
+    display: block;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+#performance .performance-data-num {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 30px;
+    font-family: "CenturyGothic";
+}
+
+#performance .data-num-block {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+#performance .data-num {
+    margin-right: 40px;
+    /*margin-top: 20px;*/
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    white-space: nowrap;
+}
+
+#performance .data-num:last-child {
+    margin-right: 0;
+}
+
+#performance .data-num div {
+    font-size: 24px;
+}
+
+#performance .data-num div .hlfont {
+    display: inline-block;
+    font-family: mojito, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    background: -webkit-linear-gradient(90deg, rgba(217, 172, 122, 1) 0%, rgba(157, 110, 69, 1) 50%, rgba(217, 172, 122, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#performance .data-num div .hlfontNormal {
+    display: inline-block;
+    font-family: "CenturyGothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    background: -webkit-linear-gradient(90deg, rgba(217, 172, 122, 1) 0%, rgba(157, 110, 69, 1) 50%, rgba(217, 172, 122, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#performance .data-num span {
+    display: block;
+    font-size: 16px;
+}
+
+#performance .data-num span.data-num-sub {
+    display: inline-block;
+    font-size: 80%;
+    color: rgba(157, 110, 69, 1);
+}
+
+#performance .data-num-icon {
+    flex: 0 0 100px;
+    margin-right: 25px;
+}
+
+#performance .data-num-icon img {
+    width: 100%;
+}
+
+#performance hr {
+    width: 100%;
+    margin: 30px 0;
+    height: 1px;
+    border-width: 0px;
+    background: linear-gradient(90deg, rgba(39, 39, 39, 1) 15%, rgba(186, 186, 186, 1) 100%);
+}
+
+#performance h2.msiText {
+    margin-bottom: 25px;
+}
+
+@media (max-width: 2240px) {
+    #performance .content {
+        width: 50%;
+        padding-left: 10vw;
+    }
+    #performance .photo {
+        width: 50%;
+        padding-left: 0px;
+        padding-right: 10vw;
+    }
+}
+
+@media (max-width: 2086px) {
+    #performance .content {
+        width: 50%;
+        padding-left: 8vw;
+    }
+    #performance .photo {
+        width: 50%;
+        padding-left: 0px;
+        padding-right: 8vw;
+    }
+}
+
+@media (max-width: 1980px) {
+    #performance .content {
+        width: 50%;
+        padding-left: 6vw;
+    }
+    #performance .photo {
+        width: 50%;
+        padding-left: 0px;
+        padding-right: 6vw;
+    }
+}
+
+@media (max-width: 1920px) {
+    #performance .intel-evo-icon img {
+        width: 82px;
+    }
+    #performance .intel-evo-icon2 img {
+        width: 82px;
+    }
+    .msiText span {
+        display: block;
+        font-size: 12px;
+        margin-top: 30px;
+    }
+    #performance .data-num div {
+        font-size: 20px;
+    }
+    #performance .data-num span {
+        font-size: 14px;
+    }
+    #performance .data-num-icon {
+        flex: 0 0 60px;
+    }
+    #performance .data-num-icon img {
+        width: 60px;
+    }
+}
+
+@media (max-width: 1680px) {
+    #performance .performance-data-num {
+        align-items: flex-start;
+    }
+    #performance .performance-data-num .data-num-icon {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 1480px) {
+    #performance .data-num div .hlfont,
+    #performance .data-num div .hlfontNormal {
+        font-size: 30px;
+    }
+    #performance .data-num {
+        margin-right: 30px;
+    }
+}
+
+@media (max-width: 1366px) {
+    #performance .data-num div .hlfont,
+    #performance .data-num div .hlfontNormal {
+        font-size: 28px;
+    }
+    #performance .data-num {
+        margin-right: 24px;
+    }
+}
+
+@media (max-width: 1280px) {
+    #performance .data-num div .hlfont,
+    #performance .data-num div .hlfontNormal {
+        font-size: 26px;
+    }
+    #performance .data-num {
+        margin-right: 24px;
+    }
+}
+
+@media (max-width: 1200px) {
+    #performance {
+        flex-direction: column-reverse;
+        text-align: center;
+        padding: 100px 0 50px;
+    }
+    #performance .photo {
+        width: 100%;
+        padding: 50px 12.5vw;
+    }
+    #performance .content {
+        width: 100%;
+        padding-left: 12.5vw;
+        padding-right: 12.5vw;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #performance .content .txtbox {
+        text-align: center;
+        margin-top: 0;
+        width: 100%;
+    }
+    #performance .performance-data-num {
+        justify-content: center;
+    }
+    #performance .intel-evo-icon {
+        padding-right: 0;
+        width: auto;
+    }
+    #performance .intel-evo-icon img {
+        width: 82px;
+    }
+    #performance .intel-evo-icon2 {
+        display: none;
+    }
+    #performance .content .txtbox h2.msiText {
+        margin-top: 20px;
+    }
+    #performance .margin__top {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    #performance .content {
+        width: 100%;
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+    #performance .data-num div .hlfont,
+    #performance .data-num div .hlfontNormal {
+        font-size: 24px;
+    }
+    #performance .performance-data-num {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0;
+    }
+    #performance .data-num-block {
+        align-items: center;
+        margin-top: 20px;
+    }
+    #performance .data-num {
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: 30px;
+    }
+    #performance .performance-data-num .data-num-icon {
+        margin-right: 0px;
+    }
+}
+
+@media (max-width: 640px) {
+    #performance .data-num-block {
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 20px;
+        justify-content: center;
+    }
+    #performance .data-num {
+        width: auto;
+        margin-right: 30px;
+        margin-top: 20px;
+    }
+}

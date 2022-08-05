@@ -1,0 +1,94 @@
+#mobility {
+    background-color: black;
+    padding: 100px 0;
+    color: white;
+    text-align: center;
+}
+
+#mobility .title {
+    width: 100%;
+}
+
+#mobility .title-icon {
+    margin-bottom: 40px;
+}
+
+#mobility .title-icon img {
+    width: 6.5vw;
+}
+
+#mobility .slides-ctrl {
+    padding: 80px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#mobility .slides-ctrl-dot {
+    border-radius: 100%;
+    background-color: #929292;
+    width: 16px;
+    height: 16px;
+    margin: 0 24px;
+    cursor: pointer;
+}
+
+#mobility .slides-ctrl-dot.active {
+    background: linear-gradient(90deg, rgba(217, 172, 122, 1) 0%, rgba(157, 110, 69, 1) 50%, rgba(217, 172, 122, 1) 100%);
+}
+
+#mobility p.msiText {
+    padding: 0 22.5vw;
+}
+
+#mobility p.msiText span {
+    color: #A3A3A3;
+}
+
+#mobility .swipe div b {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 35vw;
+    width: 100%;
+}
+
+#mobility .swipe-wrap>div {
+    margin: 0;
+}
+
+#mobility .swipe-wrap>div b {
+    display: block;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+}
+
+@media(max-width: 1920px) {
+    #mobility .title-icon img {
+        width: 95px;
+    }
+    #mobility .slides-ctrl {
+        padding: 40px 0;
+    }
+    #mobility .slides-ctrl-dot {
+        border-radius: 100%;
+        background-color: #929292;
+        width: 8px;
+        height: 8px;
+        margin: 0 12px;
+    }
+}
+
+@media(max-width: 1200px) {
+    #mobility p.msiText {
+        padding: 0 12.5vw;
+    }
+}
+
+@media(max-width: 600px) {
+    #mobility p.msiText,
+    #mobility h2.msiText {
+        padding: 0 5vw;
+    }
+}

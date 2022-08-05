@@ -1,0 +1,274 @@
+#security .sc-item[style="opacity: 0;"] {
+    z-index: 1;
+}
+
+#security .sc-item[style="opacity: 1;"] {
+    z-index: 2;
+}
+
+#security .sc-item {
+    cursor: none;
+}
+
+
+/* #security .sc-item.sci0{
+  /z-index: 3 !important;
+}
+
+#security .sc-item.sci1 {
+  z-index: 3 !important;
+}
+
+#security .sc-item.sci2,
+#security .sc-item.sci3 {
+   z-index: 1 !important;
+} */
+
+#overview.nbclass {
+    color: #4c4c4c !important;
+    display: block;
+    overflow: hidden;
+    background: #f3f3f3 !important;
+}
+
+.introbox {
+    background: #f3f3f3 !important;
+    color: #4c4c4c !important;
+}
+
+.introbox small {
+    color: #5b5b5b !important;
+}
+
+.btn-danger {
+    color: #191919;
+    background-color: transparent !important;
+    border-color: #4c4c4c !important;
+    -webkit-transition: .5s all;
+    transition: .5s all;
+}
+
+.btn-danger:hover {
+    color: #727272 !important;
+    background-color: #fff !important;
+}
+
+.block {
+    font-family: "CenturyGothic";
+}
+
+
+/* .block sup{
+    top: auto !important;
+  } */
+
+.block-row {
+    width: 80%;
+    max-width: 2200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.block h2.msiText {
+    font-size: 40px;
+    line-height: 1.2em;
+    font-family: 'CenturyGothic';
+    margin-bottom: 40px;
+}
+
+.block p.msiText {
+    font-size: 24px;
+    line-height: 1.7em;
+    font-family: 'CenturyGothic';
+}
+
+.block p.msiText+.btn-regular {
+    margin-top: 3vh;
+}
+
+.block p.note {
+    font-size: 16px;
+    margin-top: 30px;
+    color: #A3A3A3;
+}
+
+.block .vd-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    width: 100%;
+    z-index: 0;
+}
+
+.block .vd-container::after {
+    content: "";
+    right: 0;
+    bottom: 0;
+    width: 130px;
+    height: 42px;
+    position: absolute;
+    background: black;
+}
+
+.block .btn-regular {
+    display: inline-block;
+    background: transparent;
+    color: #c79e61;
+    padding: 6px 32px;
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    -webkit-transition: .5s all;
+    transition: .5s all;
+    border: 1px solid #c79e61;
+}
+
+.block .btn-regular:hover {
+    background: #dbc199;
+    color: black;
+}
+
+.block .btn-regular p {
+    margin-bottom: 0;
+}
+
+@media (max-width: 2600px) {
+    .block h2.msiText {
+        font-size: 30px;
+    }
+    .block p.msiText {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1920px) {
+    .block h2.msiText {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .block p.msiText {
+        font-size: 14px;
+    }
+    .block p.note {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 500px) {
+    .block-row {
+        width: 90%;
+    }
+}
+
+.up-fade-out {
+    -webkit-transition: 0.7s;
+    transition: 0.7s;
+    -webkit-transform: translate3d(0, 50px, 0);
+    transform: translate3d(0, 50px, 0);
+    opacity: 0;
+}
+
+.ufo-in {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+}
+
+.olshow-s {
+    -webkit-animation: animatedgradient 1s ease-in-out;
+    animation: animatedgradient 1s ease-in-out;
+}
+
+.olshow .photos-block {
+    opacity: 0;
+}
+
+.opacitystart {
+    -webkit-animation: opcityc 0.5s ease-in-out;
+    animation: opcityc 0.5s ease-in-out;
+}
+
+.fade-out,
+.r-fade-out {
+    -webkit-transition: 1s;
+    transition: 1s;
+    opacity: 0;
+}
+
+.fo-in {
+    opacity: 1;
+}
+
+.swipe {
+    overflow: hidden;
+    visibility: hidden;
+    position: relative;
+    position: relative;
+}
+
+.swipe-wrap>div {
+    float: left;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@-webkit-keyframes opcityc {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes opcityc {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes animatedgradient {
+    0% {
+        background-position: 100% 100%;
+        opacity: 0;
+    }
+    100% {
+        background-position: 0% 0%;
+        opacity: 1;
+    }
+}
+
+@keyframes animatedgradient {
+    0% {
+        background-position: 100% 100%;
+        opacity: 0;
+    }
+    100% {
+        background-position: 0% 0%;
+        opacity: 1;
+    }
+}

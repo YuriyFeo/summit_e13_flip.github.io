@@ -1,0 +1,242 @@
+.E16-MicCam {
+    background: url("../../../images/Audio.jpg") top center #000 no-repeat;
+    padding: 10% 0;
+    background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #fff;
+}
+
+.E16-MicCam--imgbox {
+    position: relative;
+    width: 55%;
+    padding-left: 7.5vw;
+}
+
+.E16-MicCam--imgbox--note {
+    text-align: center;
+    color: #c79e61;
+    text-indent: -20px;
+    margin-bottom: 3vh;
+    font-weight: 700;
+}
+
+.E16-MicCam--txtbox {
+    width: 45%;
+    padding-left: 0px;
+    padding-right: 12.5vw;
+    position: relative;
+}
+
+.E16-MicCam--iconBox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 5vh;
+}
+
+.E16-MicCam--iconBox figure {
+    width: 22%;
+}
+
+.E16-MicCam--iconBox figure:nth-child(2) {
+    margin: 0 10px 0 30px;
+}
+
+.E16-MicCam-laptop {
+    /*margin: 0px -50px 0px -450px*/
+    position: relative;
+    /*max-width: 1494px*/
+}
+
+.E16-MicCam-laptop img {
+    width: 100%;
+    display: block;
+}
+
+.E16-MicCam-laptop-main {
+    position: relative;
+}
+
+.E16-MicCam-screen {
+    position: absolute;
+    z-index: 2;
+    top: 8.1%;
+    left: 14.1%;
+    right: 17.8%;
+    bottom: 17.6%;
+    background: #369;
+}
+
+.E16-MicCam-screen-after {
+    width: 100%;
+    height: 100%;
+    background: url("../../../images/mic-laptop-after.jpg");
+    background-size: cover;
+}
+
+.E16-MicCam-screen-before {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    bottom: 0%;
+    right: 0%;
+    border-right: 1px solid #c5a677;
+    background: url("../../../images/mic-laptop-before.jpg");
+    background-size: cover;
+    -webkit-transition-duration: 1s;
+    transition-duration: 1s;
+    -webkit-transition-delay: 0.5s;
+    transition-delay: 0.5s;
+}
+
+.aos-animate .E16-MicCam-screen-before {
+    right: 50%;
+}
+
+.E16-MicCam-voices img {
+    position: absolute;
+    z-index: 3;
+    width: 13%;
+    top: -4.9%;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    opacity: 1;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-name: miccam-v;
+    animation-name: miccam-v;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+.E16-MicCam-voices img.E16-MicCam-voice1 {
+    left: 29.7%;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+}
+
+.E16-MicCam-voices img.E16-MicCam-voice2 {
+    left: 37.5%;
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+}
+
+.E16-MicCam-voices img.E16-MicCam-voice3 {
+    left: 45.5%;
+    -webkit-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+}
+
+.E16-MicCam-voices img.E16-MicCam-voice4 {
+    left: 53.2%;
+    -webkit-animation-delay: 0.9s;
+    animation-delay: 0.9s;
+}
+
+@-webkit-keyframes miccam-v {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+        opacity: 0;
+    }
+    70% {
+        opacity: .6;
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 0;
+    }
+}
+
+@keyframes miccam-v {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+        opacity: 0;
+    }
+    70% {
+        opacity: .6;
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 0;
+    }
+}
+
+@media (min-width: 2300px) {
+    .E16-MicCam-laptop {
+        margin: 0px;
+    }
+}
+
+@media (min-width: 1940px) {
+    .E16-MicCam-laptop {
+        /*margin: 0px 0px 0px -200px*/
+    }
+}
+
+@media (max-width: 1199px) {
+    .E16-MicCam {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .E16-MicCam--imgbox,
+    .E16-MicCam--txtbox {
+        width: 100%;
+    }
+    .E16-MicCam--imgbox {
+        padding: 0 8.5vw;
+    }
+    .E16-MicCam--txtbox {
+        padding: auto;
+        text-align: center;
+        padding: 5vh 12.5vw 0 12.5vw;
+    }
+    .E16-MicCam--iconBox {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+    .E16-MicCam--iconBox figure {
+        width: 18%;
+    }
+    .E16-MicCam--iconBox figure img {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 991px) {
+    .E16-MicCam-content {
+        margin-top: 0px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 767px) {
+    .E16-MicCam {
+        padding: 100px 0px 30px;
+    }
+    .E16-MicCam--iconBox {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+    .E16-MicCam--iconBox figure {
+        width: 26%;
+    }
+    .E16-MicCam-laptop {
+        position: relative;
+    }
+}

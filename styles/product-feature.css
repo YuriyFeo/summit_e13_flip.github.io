@@ -1,0 +1,120 @@
+:root {
+    --block-title-xl: 36px;
+    --block-title-lg: 24px;
+    --block-title-md: 22px;
+    --block-title-sm: 20px;
+    --block-title-xs: 18px;
+    --block-text-lg: 20px;
+    --block-text-md: 17px;
+    --block-text-sm: 16px;
+    --block-text-xs: 15px;
+    --block-text-xxs: 13px;
+    --block-font: var(--MSIBodyFont);
+    --block-bg: #000;
+    --block-color: var(--color-white);
+    --block-title-color: var(--color-white)
+}
+
+@media(min-width: 992px) {
+     :root {
+        --block-title-xl: 60px;
+        --block-title-lg: 32px;
+        --block-title-md: 26px
+    }
+}
+
+@media(min-width: 1930px) {
+     :root {
+        --block-text-md: 20px;
+        --block-text-sm: 18px
+    }
+}
+
+.pd-block {
+    background-color: var(--block-bg);
+    color: var(--block-color);
+    font-family: var(--block-font);
+    font-size: var(--block-text-md)
+}
+
+.pd-block img {
+    max-width: 100%
+}
+
+.pd-block .title--main {
+    font-size: var(--block-title-lg);
+    color: var(--block-title-color);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-family: var(--block-font)
+}
+
+.pd-block .title--sub {
+    font-size: var(--block-title-md);
+    color: var(--block-title-color);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-family: var(--block-font)
+}
+
+.pd-block .title--list {
+    font-size: var(--block-title-sm);
+    color: var(--block-title-color);
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-family: var(--block-font)
+}
+
+.pd-block .text--list {
+    font-size: var(--block-text-sm)
+}
+
+.pd-block .text--note {
+    font-size: var(--block-text-xs);
+    opacity: .7;
+    margin-top: 25px
+}
+
+.pd-block .data__value span {
+    font-size: var(--block-title-xl);
+    font-weight: 400
+}
+
+.pd-block p {
+    line-height: 1.5
+}
+
+.pd-block .sp {
+    padding-top: 20px;
+    padding-bottom: 20px
+}
+
+.pd-block .sp--top {
+    padding-top: 20px
+}
+
+.pd-block .sp--bottom {
+    padding-bottom: 20px
+}
+
+.pd-block .container {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto
+}
+
+.pd-block .container--full {
+    width: 100%;
+    max-width: 3840px;
+    margin: 0 auto
+}
+
+.pd-block[data-feature-theme=white] {
+    --block-bg: var(--color-white);
+    --block-color: var(--color-gray-800);
+    --block-title-color: var(--color-gray-800)
+}
+
+.pd-block[data-font=creation] {
+    --block-font: "CenturyGothic", "Microsoft JhengHei", Arial, sans-serif
+}
